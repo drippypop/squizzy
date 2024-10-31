@@ -8,20 +8,22 @@
     </div>
     <h1 class="page-title">{{ title }}</h1>
     <p class="page-subtitle">{{ subtitle }}</p>
+    <QrCodeReader />
   </div>
 </template>
 
 <script>
 import SquizzySquid from '@/components/general/SquizzySquid'
-
+import QrCodeReader from '@/components/general/QrCodeReader'
 export default {
   components: {
-    SquizzySquid
+    SquizzySquid,
+    QrCodeReader
   },
   data() {
     return {
       title: 'Welcome to Squizzy!',
-      subtitle: 'To play, find a QR code to scan or a URL to follow',
+      subtitle: 'Use the camera below to scan the QR-code',
       status: 'Powered by Sanity',
       expression: {mouth: 'happy'}
     }
