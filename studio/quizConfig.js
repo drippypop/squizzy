@@ -1,6 +1,6 @@
 export default {
-  localWebHost: 'http://localhost:3000', // default Vue port
-  localApiHost: 'http://localhost:3000', // default Now API port
+  localWebHost: 'http://localhost:3000', // default Vue port.
+  localApiHost: 'http://localhost:3000', // default Now API port.
   remoteWebHost: '<your-app-name>.now.sh',
   match: {
     correctAnswerScore: 100,
