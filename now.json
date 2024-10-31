@@ -2,6 +2,6 @@
   "version": 2,
   "name": "squizzy",
   "env": {
-    "SQUIZZY_WRITE_TOKEN": "@squizzy_write_token"
+    "SQUIZZY_WRITE_TOKEN": "sk5Vqk6ZcefzCxm8d2ykoeOe4gWBOoWN1ongMGpNNl7jOB3I9dsfSNDSjkXx9za9k2fvhMwbOdjIH9MTj1a56e111umiJypzvLZr0APevUppazETwsUdtxE881SHVUAFyNp9YCiYKdJOyCK3HV7KfUZ7fu4nq3rS9zLl6uCNmeY8JJd1q8SQ"
   }
 }
