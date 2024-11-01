@@ -7,6 +7,7 @@
     "dev": "concurrently \"npm run serve\" \"npm run studio\"",
     "build": "vue-cli-service build",
     "studio": "cd studio && npm run dev",
+    "setup": "npm install && cd studio && npm install",
     "now-dev": "npm run dev"
   },
   "engines": {
